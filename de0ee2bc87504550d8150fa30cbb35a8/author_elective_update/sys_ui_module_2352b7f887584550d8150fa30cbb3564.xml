@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Oura User Data">0f5277f887584550d8150fa30cbb35cb</application>
+        <filter/>
+        <name>150s</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_oura_ring.oura_user_data_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:33:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2352b7f887584550d8150fa30cbb3564</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>150s</sys_name>
+        <sys_package display_value="Oura Ring Integration" source="x_snc_oura_ring">de0ee2bc87504550d8150fa30cbb35a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name>sys_ui_module_2352b7f887584550d8150fa30cbb3564</sys_update_name>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:33:08</sys_updated_on>
+        <table>x_snc_oura_ring_150</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</application>
+        <file_path/>
+        <instance_id>a2fc6ab4dbc2f01052dd2f17d49619ea</instance_id>
+        <instance_name>mattdemo</instance_name>
+        <name>sys_ui_module_2352b7f887584550d8150fa30cbb3564</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Oura User Data">0f5277f887584550d8150fa30cbb35cb</application><filter/><name>150s</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_snc_oura_ring.oura_user_data_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>matt.dodd</sys_created_by><sys_created_on>2021-12-06 07:33:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2352b7f887584550d8150fa30cbb3564</sys_id><sys_mod_count>0</sys_mod_count><sys_name>150s</sys_name><sys_package display_value="Oura Ring Integration" source="x_snc_oura_ring">de0ee2bc87504550d8150fa30cbb35a8</sys_package><sys_policy/><sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope><sys_update_name>sys_ui_module_2352b7f887584550d8150fa30cbb3564</sys_update_name><sys_updated_by>matt.dodd</sys_updated_by><sys_updated_on>2021-12-06 07:33:08</sys_updated_on><table>x_snc_oura_ring_150</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>1429602608</payload_hash>
+        <record_name>150s</record_name>
+        <reverted_from/>
+        <source>520ee2bc87504550d8150fa30cbb35ab</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:33:08</sys_created_on>
+        <sys_id>ab52b7f887584550d8150fa30cbb3565</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d8ea91f470000001</sys_recorded_at>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:33:08</sys_updated_on>
+        <type>Module</type>
+        <update_guid>a352b7f8365845508b2f768e0f4cac65</update_guid>
+        <update_guid_history>a352b7f8365845508b2f768e0f4cac65:1429602608</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:44:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>ecd86071f04b46e99201924ef8df9441</sys_id>
+        <sys_metadata>2352b7f887584550d8150fa30cbb3564</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>150s</sys_name>
+        <sys_package display_value="Oura Ring Integration" source="x_snc_oura_ring">de0ee2bc87504550d8150fa30cbb35a8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_scope_delete display_value="">1fd4f4ec605f473c8594948b316f7584</sys_scope_delete>
+        <sys_update_name>sys_ui_module_2352b7f887584550d8150fa30cbb3564</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_2352b7f887584550d8150fa30cbb3564">ab52b7f887584550d8150fa30cbb3565</sys_update_version>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:44:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

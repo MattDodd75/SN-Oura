@@ -1,0 +1,1812 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls>16afabb487584550d8150fa30cbb3534</acls>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>true</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-rome-06-23-2021__patch3-hotfix1-11-12-2021_11-15-2021_1404.zip</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Gets the User's personal information</description>
+        <ih_action>false</ih_action>
+        <internal_name>oura_api</internal_name>
+        <label_cache>[{"name":"{{action.order_record}}","label":"action➛Order Record","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.order_line}}","label":"action➛Order Line","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.order_record.supplier.legal_name}}","label":"action➛Order Record➛Supplier➛Legal name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.order_record.business_owner.name}}","label":"action➛Order Record➛Business owner➛Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.product_list}}","label":"action➛Product List","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.product_list._}}","label":"action➛Product List","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.product_list.List}}","label":"action➛Product List➛List","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.order_line.supplier_product.name}}","label":"action➛Order Line➛Supplier product➛Name","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.order_line.sys_id}}","label":"action➛Order Line➛Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.order_line.supplier_product.sys_id}}","label":"action➛Order Line➛Supplier product➛Sys ID","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.ah_task}}","label":"action➛task","type":"action","ref":"task","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.ah_task.description}}","label":"action➛Task➛Description","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.ah_task.short_description}}","label":"action➛Task➛Short description","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.ah_task.priority}}","label":"action➛Task➛Priority","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.ah_task.assigned_to}}","label":"action➛Task➛Assigned to","type":"action","ref":"sys_user","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.ah_task.assignment_group}}","label":"action➛Task➛Assignment group","type":"action","ref":"sys_user_group","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.access_token}}","label":"action➛access_token","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"d4e24535-1cfb-4505-8ef8-a28e5a97d10f"}},{"name":"{{step[6411a07a-b305-4ded-a8fc-53a98974f0b4].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5cb07822-0a1a-4f16-bf48-7c9f3ec32f3c].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[e0b3d2dc-f6eb-47da-9b22-71a592dcbdb6].payload}}","label":"step➛Payload Builder step➛Payload","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[1b5adcb8-27f2-42da-bd48-9709001d59e2].record}}","label":"step➛Create Record step➛Incident Record","type":"step","ref":"incident","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>7c617b7887584550d8150fa30cbb35b7</master_snapshot>
+        <name>Get User Data</name>
+        <natlang>Get User Data</natlang>
+        <outputs/>
+        <outputs/>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 03:02:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ff547e7887904550d8150fa30cbb35a5</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Get User Data</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oura Ring Integration" source="x_snc_oura_ring">de0ee2bc87504550d8150fa30cbb35a8</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_ff547e7887904550d8150fa30cbb35a5</sys_update_name>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:51:36</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=ff547e7887904550d8150fa30cbb35a5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ff547e7887904550d8150fa30cbb35a5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>ff547e7887904550d8150fa30cbb35a5</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:37:12</sys_created_on>
+        <sys_id>a1d7d37087944550d8150fa30cbb3578</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 05:37:57</sys_updated_on>
+        <value>{"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"version":"1.0","complexObjectSchema":{"FlowDesigner:FDd9d7d370cb944550dc010ccdde1f525f":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDd9d7d370cb944550dc010ccdde1f525f.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"88c02ffb-b587-4b6e-ac9c-02bb196183a7\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDd9d7d370cb944550dc010ccdde1f525f\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">d1d7d37087944550d8150fa30cbb3562</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>ff547e7887904550d8150fa30cbb35a5</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:37:12</sys_created_on>
+        <sys_id>edd7d37087944550d8150fa30cbb3577</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 05:37:12</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">a1d7d37087944550d8150fa30cbb356a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ff547e7887904550d8150fa30cbb35a5"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>ff547e7887904550d8150fa30cbb35a5</id>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:07:22</sys_created_on>
+        <sys_id>d27c2f3087584550d8150fa30cbb3598</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:07:22</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ff547e7887904550d8150fa30cbb35a5</table>
+        <value>{{step[5cb07822-0a1a-4f16-bf48-7c9f3ec32f3c].root}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>ff547e7887904550d8150fa30cbb35a5</id>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:37:12</sys_created_on>
+        <sys_id>6dd7d37087944550d8150fa30cbb3577</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 05:37:12</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ff547e7887904550d8150fa30cbb35a5</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>ff547e7887904550d8150fa30cbb35a5</id>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:37:12</sys_created_on>
+        <sys_id>a9d7d37087944550d8150fa30cbb3577</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 05:37:12</sys_updated_on>
+        <table>var__m_sys_hub_action_output_ff547e7887904550d8150fa30cbb35a5</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=ff547e7887904550d8150fa30cbb35a5^sys_idNOT IN43971f3087944550d8150fa30cbb3590,c97b2f7c87184550d8150fa30cbb355b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get User Data">ff547e7887904550d8150fa30cbb35a5</action>
+        <cid>6411a07a-b305-4ded-a8fc-53a98974f0b4</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:36:13</sys_created_on>
+        <sys_id>43971f3087944550d8150fa30cbb3590</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:25:21</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=43971f3087944550d8150fa30cbb3590"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>43971f3087944550d8150fa30cbb3590</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:36:13</sys_created_on>
+        <sys_id>0b971f3087944550d8150fa30cbb35db</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 05:37:12</sys_updated_on>
+        <value>https://api.ouraring.com</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>43971f3087944550d8150fa30cbb3590</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:36:13</sys_created_on>
+        <sys_id>43971f3087944550d8150fa30cbb35dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 05:36:13</sys_updated_on>
+        <value>5</value>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>43971f3087944550d8150fa30cbb3590</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:36:13</sys_created_on>
+        <sys_id>47971f3087944550d8150fa30cbb35da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 05:36:13</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>43971f3087944550d8150fa30cbb3590</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:36:13</sys_created_on>
+        <sys_id>47971f3087944550d8150fa30cbb35db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 05:36:13</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>43971f3087944550d8150fa30cbb3590</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:37:12</sys_created_on>
+        <sys_id>59d7d37087944550d8150fa30cbb355b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 05:37:12</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>43971f3087944550d8150fa30cbb3590</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:36:13</sys_created_on>
+        <sys_id>83971f3087944550d8150fa30cbb35db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 05:36:13</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>43971f3087944550d8150fa30cbb3590</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:36:13</sys_created_on>
+        <sys_id>8f971f3087944550d8150fa30cbb35db</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:25:21</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"access_token","value":"WMWYEQ5J3JOWOUMFTAL7R3SLYH565OYG"}]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>43971f3087944550d8150fa30cbb3590</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:36:13</sys_created_on>
+        <sys_id>cb971f3087944550d8150fa30cbb35db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 05:36:13</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>43971f3087944550d8150fa30cbb3590</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:36:13</sys_created_on>
+        <sys_id>cf971f3087944550d8150fa30cbb35da</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:02:54</sys_updated_on>
+        <value>/v1/userinfo</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=43971f3087944550d8150fa30cbb3590"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=43971f3087944550d8150fa30cbb3590"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=43971f3087944550d8150fa30cbb3590"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=43971f3087944550d8150fa30cbb3590"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_43971f3087944550d8150fa30cbb3590"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get User Data">ff547e7887904550d8150fa30cbb35a5</action>
+        <cid>5cb07822-0a1a-4f16-bf48-7c9f3ec32f3c</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:02:55</sys_created_on>
+        <sys_id>c97b2f7c87184550d8150fa30cbb355b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:07:22</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c97b2f7c87184550d8150fa30cbb355b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c97b2f7c87184550d8150fa30cbb355b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:02:55</sys_created_on>
+        <sys_id>c97b2f7c87184550d8150fa30cbb3588</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:07:22</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"age","children":[],"type":"string","jpath":"$.age","previewValue":"27"},{"name":"weight","children":[],"type":"string","jpath":"$.weight","previewValue":"80"},{"name":"gender","children":[],"type":"string","jpath":"$.gender","previewValue":"male"},{"name":"email","children":[],"type":"string","jpath":"$.email","previewValue":"john.doe@the.domain"}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c97b2f7c87184550d8150fa30cbb355b</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:07:22</sys_created_on>
+        <sys_id>d27c2f3087584550d8150fa30cbb3578</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:07:22</sys_updated_on>
+        <value>  {
+     "age": 27,
+     "weight": 80,
+     "gender": "male",
+     "email": "john.doe@the.domain"
+   }</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c97b2f7c87184550d8150fa30cbb355b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:07:22</sys_created_on>
+        <sys_id>da7c2f3087584550d8150fa30cbb3578</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:07:22</sys_updated_on>
+        <value>structured</value>
+        <variable display_value="Payload view">95d4280787523300f917e55936cb0bfe</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_c97b2f7c87184550d8150fa30cbb355b^id=c97b2f7c87184550d8150fa30cbb355b"/>
+    <sys_element_mapping action="delete_multiple" query="id=c97b2f7c87184550d8150fa30cbb355b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload_view</field>
+        <id>c97b2f7c87184550d8150fa30cbb355b</id>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:07:22</sys_created_on>
+        <sys_id>de7c2f3087584550d8150fa30cbb3576</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:07:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>c97b2f7c87184550d8150fa30cbb355b</id>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:07:22</sys_created_on>
+        <sys_id>967c2f3087584550d8150fa30cbb3577</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:07:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>c97b2f7c87184550d8150fa30cbb355b</id>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:02:55</sys_created_on>
+        <sys_id>897b2f7c87184550d8150fa30cbb3562</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:02:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[6411a07a-b305-4ded-a8fc-53a98974f0b4].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>c97b2f7c87184550d8150fa30cbb355b</id>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:02:55</sys_created_on>
+        <sys_id>497b2f7c87184550d8150fa30cbb3588</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:02:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=c97b2f7c87184550d8150fa30cbb355b"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c97b2f7c87184550d8150fa30cbb355b^sys_idNOT IN0a7c2f3087584550d8150fa30cbb356c"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD067c2f30ff584550262ede28fae78269,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=9e1051e3-ca30-4c40-bae8-c34f2da62579</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">c97b2f7c87184550d8150fa30cbb355b</model>
+        <model_id>c97b2f7c87184550d8150fa30cbb355b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_c97b2f7c87184550d8150fa30cbb355b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:07:22</sys_created_on>
+        <sys_id>0a7c2f3087584550d8150fa30cbb356c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:07:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c97b2f7c87184550d8150fa30cbb355b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_c97b2f7c87184550d8150fa30cbb355b^sys_idNOT INd27c2f3087584550d8150fa30cbb3573"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_c97b2f7c87184550d8150fa30cbb355b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:07:22</sys_created_on>
+        <sys_id>d27c2f3087584550d8150fa30cbb3573</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Oura Ring Integration" source="x_snc_oura_ring">de0ee2bc87504550d8150fa30cbb35a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:07:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_input action="delete_multiple" query="model=ff547e7887904550d8150fa30cbb35a5^sys_idNOT IN3de377bc87584550d8150fa30cbb354c"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d4e24535-1cfb-4505-8ef8-a28e5a97d10f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>access_token</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>access_token</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Get User Data">ff547e7887904550d8150fa30cbb35a5</model>
+        <model_id>ff547e7887904550d8150fa30cbb35a5</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_ff547e7887904550d8150fa30cbb35a5</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:39:50</sys_created_on>
+        <sys_id>3de377bc87584550d8150fa30cbb354c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:40:42</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=3de377bc87584550d8150fa30cbb354c"/>
+    <sys_hub_action_output action="delete_multiple" query="model=ff547e7887904550d8150fa30cbb35a5^sys_idNOT IN55a823bc87d44550d8150fa30cbb353b,a1d7d37087944550d8150fa30cbb356a,d1d7d37087944550d8150fa30cbb3562"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD167c2f305d5845504924a04c921fe27b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,sourceId=5cb07822-0a1a-4f16-bf48-7c9f3ec32f3c,sourceType=step,sourceUiUniqueId=9e1051e3-ca30-4c40-bae8-c34f2da62579,uiType=object,uiTypeLabel=Object,uiUniqueId=eee558a1-2e58-442f-a089-75c8250a71e4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>result</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get User Data">ff547e7887904550d8150fa30cbb35a5</model>
+        <model_id>ff547e7887904550d8150fa30cbb35a5</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_ff547e7887904550d8150fa30cbb35a5</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 06:50:38</sys_created_on>
+        <sys_id>55a823bc87d44550d8150fa30cbb353b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:07:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=55a823bc87d44550d8150fa30cbb353b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=55a823bc87d44550d8150fa30cbb353b^sys_idNOT IN167c2f3087584550d8150fa30cbb3597"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>variable</input_name>
+        <instance>55a823bc87d44550d8150fa30cbb353b</instance>
+        <referenced_table>sys_hub_action_output</referenced_table>
+        <script>{"variable":{"scriptActive":false}}</script>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:07:22</sys_created_on>
+        <sys_id>167c2f3087584550d8150fa30cbb3597</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:07:22</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=cb9b0bc1-0849-4c7d-b1b1-ed93efd0c572,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get User Data">ff547e7887904550d8150fa30cbb35a5</model>
+        <model_id>ff547e7887904550d8150fa30cbb35a5</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_ff547e7887904550d8150fa30cbb35a5</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:37:12</sys_created_on>
+        <sys_id>a1d7d37087944550d8150fa30cbb356a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 05:37:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a1d7d37087944550d8150fa30cbb356a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a1d7d37087944550d8150fa30cbb356a"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDd9d7d370cb944550dc010ccdde1f525f,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=88c02ffb-b587-4b6e-ac9c-02bb196183a7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get User Data">ff547e7887904550d8150fa30cbb35a5</model>
+        <model_id>ff547e7887904550d8150fa30cbb35a5</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_ff547e7887904550d8150fa30cbb35a5</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:37:12</sys_created_on>
+        <sys_id>d1d7d37087944550d8150fa30cbb3562</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 05:37:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d1d7d37087944550d8150fa30cbb3562"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d1d7d37087944550d8150fa30cbb3562"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ff547e7887904550d8150fa30cbb35a5"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=ff547e7887904550d8150fa30cbb35a5^sys_idNOT INcb971f3087944550d8150fa30cbb35e1"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Get User Data">ff547e7887904550d8150fa30cbb35a5</action_type_id>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:36:13</sys_created_on>
+        <sys_id>cb971f3087944550d8150fa30cbb35e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 05:36:13</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=cb971f3087944550d8150fa30cbb35e1"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_ff547e7887904550d8150fa30cbb35a5^sys_idNOT INfde377bc87584550d8150fa30cbb3553"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>access_token</element>
+        <help/>
+        <hint/>
+        <label>access_token</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_ff547e7887904550d8150fa30cbb35a5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:39:50</sys_created_on>
+        <sys_id>fde377bc87584550d8150fa30cbb3553</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Oura Ring Integration" source="x_snc_oura_ring">de0ee2bc87504550d8150fa30cbb35a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:39:50</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_ff547e7887904550d8150fa30cbb35a5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_ff547e7887904550d8150fa30cbb35a5^sys_idNOT IN2dd7d37087944550d8150fa30cbb3568,69d7d37087944550d8150fa30cbb3574,9da823bc87d44550d8150fa30cbb3541"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ff547e7887904550d8150fa30cbb35a5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:37:12</sys_created_on>
+        <sys_id>2dd7d37087944550d8150fa30cbb3568</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Oura Ring Integration" source="x_snc_oura_ring">de0ee2bc87504550d8150fa30cbb35a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 05:37:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ff547e7887904550d8150fa30cbb35a5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 05:37:12</sys_created_on>
+        <sys_id>69d7d37087944550d8150fa30cbb3574</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Oura Ring Integration" source="x_snc_oura_ring">de0ee2bc87504550d8150fa30cbb35a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 05:37:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>result</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_ff547e7887904550d8150fa30cbb35a5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 06:50:38</sys_created_on>
+        <sys_id>9da823bc87d44550d8150fa30cbb3541</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Oura Ring Integration" source="x_snc_oura_ring">de0ee2bc87504550d8150fa30cbb35a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:07:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_ff547e7887904550d8150fa30cbb35a5"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=ff547e7887904550d8150fa30cbb35a5^sys_idNOT IN2961bb7887584550d8150fa30cbb35e6"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Get User Data">ff547e7887904550d8150fa30cbb35a5</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"2961bb7887584550d8150fa30cbb35e6","name":"plan","plan_signature":null}}</plan>
+        <snapshot>8961bb7887584550d8150fa30cbb3522</snapshot>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2961bb7887584550d8150fa30cbb35e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:53</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>oura_api</internal_name>
+        <label_cache>[{"name":"{{step[6411a07a-b305-4ded-a8fc-53a98974f0b4].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{"hidden_for":"DATASTREAM"}},{"name":"{{step[5cb07822-0a1a-4f16-bf48-7c9f3ec32f3c].root}}","label":"step➛JSON Parser step➛root","type":"step","ref":"","reference_display":"","base_type":"object","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Oura API</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get User Data">ff547e7887904550d8150fa30cbb35a5</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c617b7887584550d8150fa30cbb35b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=7c617b7887584550d8150fa30cbb35b7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7c617b7887584550d8150fa30cbb35b7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>7c617b7887584550d8150fa30cbb35b7</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:52</sys_created_on>
+        <sys_id>4161bb7887584550d8150fa30cbb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:52</sys_updated_on>
+        <value>{"complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"version":"1.0","complexObjectSchema":{"FlowDesigner:FD05617b78435845503dd86a775a24f4ef":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD05617b78435845503dd86a775a24f4ef.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"88c02ffb-b587-4b6e-ac9c-02bb196183a7\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD05617b78435845503dd86a775a24f4ef\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">c9617b7887584550d8150fa30cbb35f3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>7c617b7887584550d8150fa30cbb35b7</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:52</sys_created_on>
+        <sys_id>8d61bb7887584550d8150fa30cbb351f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:52</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">c1617b7887584550d8150fa30cbb35fc</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7c617b7887584550d8150fa30cbb35b7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>variable</field>
+        <id>7c617b7887584550d8150fa30cbb35b7</id>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:52</sys_created_on>
+        <sys_id>8561bb7887584550d8150fa30cbb351f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:52</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7c617b7887584550d8150fa30cbb35b7</table>
+        <value>{{step[5cb07822-0a1a-4f16-bf48-7c9f3ec32f3c].root}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>7c617b7887584550d8150fa30cbb35b7</id>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:52</sys_created_on>
+        <sys_id>0d61bb7887584550d8150fa30cbb351f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:52</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7c617b7887584550d8150fa30cbb35b7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>7c617b7887584550d8150fa30cbb35b7</id>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:52</sys_created_on>
+        <sys_id>4961bb7887584550d8150fa30cbb351f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:52</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7c617b7887584550d8150fa30cbb35b7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=7c617b7887584550d8150fa30cbb35b7^sys_idNOT IN09617b7887584550d8150fa30cbb35d0,30617b7887584550d8150fa30cbb35bc"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Oura API">7c617b7887584550d8150fa30cbb35b7</action>
+        <cid>5cb07822-0a1a-4f16-bf48-7c9f3ec32f3c</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>JSON Parser step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="JSON Parser">502328c387523300f917e55936cb0bf0</step_type>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>09617b7887584550d8150fa30cbb35d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=09617b7887584550d8150fa30cbb35d0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>09617b7887584550d8150fa30cbb35d0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>01617b7887584550d8150fa30cbb35ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <value>structured</value>
+        <variable display_value="Payload view">95d4280787523300f917e55936cb0bfe</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>09617b7887584550d8150fa30cbb35d0</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>4d617b7887584550d8150fa30cbb35ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <value>  {
+     "age": 27,
+     "weight": 80,
+     "gender": "male",
+     "email": "john.doe@the.domain"
+   }</value>
+        <variable display_value="Sample payload">d335ac0787523300f917e55936cb0b1d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>09617b7887584550d8150fa30cbb35d0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>89617b7887584550d8150fa30cbb35ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <value>{"name":"root","children":[{"name":"age","children":[],"type":"string","jpath":"$.age","previewValue":"27"},{"name":"weight","children":[],"type":"string","jpath":"$.weight","previewValue":"80"},{"name":"gender","children":[],"type":"string","jpath":"$.gender","previewValue":"male"},{"name":"email","children":[],"type":"string","jpath":"$.email","previewValue":"john.doe@the.domain"}],"type":"object","jpath":"$","previewValue":""}</value>
+        <variable display_value="Target">4674240787523300f917e55936cb0b0e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_09617b7887584550d8150fa30cbb35d0^id=09617b7887584550d8150fa30cbb35d0"/>
+    <sys_element_mapping action="delete_multiple" query="id=09617b7887584550d8150fa30cbb35d0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>payload_view</field>
+        <id>09617b7887584550d8150fa30cbb35d0</id>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>45617b7887584550d8150fa30cbb35ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>sample_payload</field>
+        <id>09617b7887584550d8150fa30cbb35d0</id>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>09617b7887584550d8150fa30cbb35ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>source_data</field>
+        <id>09617b7887584550d8150fa30cbb35d0</id>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>cd617b7887584550d8150fa30cbb35eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value>{{step[6411a07a-b305-4ded-a8fc-53a98974f0b4].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_schema</field>
+        <id>09617b7887584550d8150fa30cbb35d0</id>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>81617b7887584550d8150fa30cbb35ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_502328c387523300f917e55936cb0bf0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=09617b7887584550d8150fa30cbb35d0"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=09617b7887584550d8150fa30cbb35d0^sys_idNOT IN8d617b7887584550d8150fa30cbb35d5"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD81617b782e5845503a29171f037121d3,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=9e1051e3-ca30-4c40-bae8-c34f2da62579</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>root</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>root</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="JSON Parser step">09617b7887584550d8150fa30cbb35d0</model>
+        <model_id>09617b7887584550d8150fa30cbb35d0</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_09617b7887584550d8150fa30cbb35d0</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>8d617b7887584550d8150fa30cbb35d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=09617b7887584550d8150fa30cbb35d0"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_09617b7887584550d8150fa30cbb35d0^sys_idNOT IN45617b7887584550d8150fa30cbb35dc"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>root</element>
+        <help/>
+        <hint/>
+        <label>root</label>
+        <language>en</language>
+        <name>var__m_sys_hub_step_ext_output_09617b7887584550d8150fa30cbb35d0</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>45617b7887584550d8150fa30cbb35dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Oura Ring Integration" source="x_snc_oura_ring">de0ee2bc87504550d8150fa30cbb35a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Oura API">7c617b7887584550d8150fa30cbb35b7</action>
+        <cid>6411a07a-b305-4ded-a8fc-53a98974f0b4</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>REST step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="REST">07a762fb47222200b4fad7527c9a7129</step_type>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>30617b7887584550d8150fa30cbb35bc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=30617b7887584550d8150fa30cbb35bc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>30617b7887584550d8150fa30cbb35bc</document_key>
+        <order>12</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>09617b7887584550d8150fa30cbb35cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">f11ebf865f101300a09a2abd7f466652</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>30617b7887584550d8150fa30cbb35bc</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>0d617b7887584550d8150fa30cbb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">91e207d03b50030057a4a2e334efc4a0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>30617b7887584550d8150fa30cbb35bc</document_key>
+        <order>15</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>45617b7887584550d8150fa30cbb35cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <value>https://api.ouraring.com</value>
+        <variable display_value="Base URL">a67a8ef03b23320057a4a2e334efc472</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>30617b7887584550d8150fa30cbb35bc</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>49617b7887584550d8150fa30cbb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <value>/v1/userinfo</value>
+        <variable display_value="Resource Path">3d090af03b23320057a4a2e334efc455</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>30617b7887584550d8150fa30cbb35bc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>70617b7887584550d8150fa30cbb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <value>1</value>
+        <variable display_value="Honor Duplicate Query Params">58715a1c53f22010d3a8ddeeff7b1248</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>30617b7887584550d8150fa30cbb35bc</document_key>
+        <order>13</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>81617b7887584550d8150fa30cbb35cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <value>18409d8007482000dada43c0d1021e8f</value>
+        <variable display_value="Capabilities">c30a451d2f201300a09a839fb18c95b4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>30617b7887584550d8150fa30cbb35bc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>8d617b7887584550d8150fa30cbb35cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <value>5</value>
+        <variable display_value="Connection Timeout">7a59009bc7522010820469467ec260c0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>30617b7887584550d8150fa30cbb35bc</document_key>
+        <order>25</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>c9617b7887584550d8150fa30cbb35cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[{"attributes":{"mandatory":false,"omit_if_empty":false},"name":"access_token","value":"WMWYEQ5J3JOWOUMFTAL7R3SLYH565OYG"}]}</value>
+        <variable display_value="Query Parameters">4328e2fb47222200b4fad7527c9a7164</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>30617b7887584550d8150fa30cbb35bc</document_key>
+        <order>30</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>cd617b7887584550d8150fa30cbb35cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <value>{"type":"ADV_NV","value":[]}</value>
+        <variable display_value="Headers">371837f1c71003007b237f48cb9763b0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_07a762fb47222200b4fad7527c9a7129^id=30617b7887584550d8150fa30cbb35bc"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=30617b7887584550d8150fa30cbb35bc"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=30617b7887584550d8150fa30cbb35bc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=30617b7887584550d8150fa30cbb35bc"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_30617b7887584550d8150fa30cbb35bc"/>
+    <sys_hub_action_input action="delete_multiple" query="model=7c617b7887584550d8150fa30cbb35b7"/>
+    <sys_hub_action_output action="delete_multiple" query="model=7c617b7887584550d8150fa30cbb35b7^sys_idNOT IN0d61bb7887584550d8150fa30cbb3508,c1617b7887584550d8150fa30cbb35fc,c9617b7887584550d8150fa30cbb35f3"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>co_type_name=FD85617b78fe58455080f79bfcf9197ff1,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,sourceId=5cb07822-0a1a-4f16-bf48-7c9f3ec32f3c,sourceType=step,sourceUiUniqueId=9e1051e3-ca30-4c40-bae8-c34f2da62579,uiType=object,uiTypeLabel=Object,uiUniqueId=eee558a1-2e58-442f-a089-75c8250a71e4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>result</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Oura API">7c617b7887584550d8150fa30cbb35b7</model>
+        <model_id>7c617b7887584550d8150fa30cbb35b7</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_7c617b7887584550d8150fa30cbb35b7</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:52</sys_created_on>
+        <sys_id>0d61bb7887584550d8150fa30cbb3508</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=0d61bb7887584550d8150fa30cbb3508"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0d61bb7887584550d8150fa30cbb3508^sys_idNOT INc561bb7887584550d8150fa30cbb351e"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>variable</input_name>
+        <instance>0d61bb7887584550d8150fa30cbb3508</instance>
+        <referenced_table>sys_hub_action_output</referenced_table>
+        <script>{"variable":{"scriptActive":false}}</script>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:52</sys_created_on>
+        <sys_id>c561bb7887584550d8150fa30cbb351e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:52</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=cb9b0bc1-0849-4c7d-b1b1-ed93efd0c572,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Oura API">7c617b7887584550d8150fa30cbb35b7</model>
+        <model_id>7c617b7887584550d8150fa30cbb35b7</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_7c617b7887584550d8150fa30cbb35b7</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>c1617b7887584550d8150fa30cbb35fc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:52</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c1617b7887584550d8150fa30cbb35fc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c1617b7887584550d8150fa30cbb35fc"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FD05617b78435845503dd86a775a24f4ef,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=88c02ffb-b587-4b6e-ac9c-02bb196183a7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Oura API">7c617b7887584550d8150fa30cbb35b7</model>
+        <model_id>7c617b7887584550d8150fa30cbb35b7</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_7c617b7887584550d8150fa30cbb35b7</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>c9617b7887584550d8150fa30cbb35f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c9617b7887584550d8150fa30cbb35f3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c9617b7887584550d8150fa30cbb35f3"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7c617b7887584550d8150fa30cbb35b7"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=7c617b7887584550d8150fa30cbb35b7^sys_idNOT IN8161bb7887584550d8150fa30cbb3522"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Oura API">7c617b7887584550d8150fa30cbb35b7</action_type_id>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:52</sys_created_on>
+        <sys_id>8161bb7887584550d8150fa30cbb3522</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:52</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=8161bb7887584550d8150fa30cbb3522"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_7c617b7887584550d8150fa30cbb35b7"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_7c617b7887584550d8150fa30cbb35b7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_7c617b7887584550d8150fa30cbb35b7^sys_idNOT IN0161bb7887584550d8150fa30cbb350f,0d617b7887584550d8150fa30cbb35fa,4561bb7887584550d8150fa30cbb3507"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>variable</element>
+        <help/>
+        <hint/>
+        <label>result</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_7c617b7887584550d8150fa30cbb35b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:52</sys_created_on>
+        <sys_id>0161bb7887584550d8150fa30cbb350f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Oura Ring Integration" source="x_snc_oura_ring">de0ee2bc87504550d8150fa30cbb35a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_7c617b7887584550d8150fa30cbb35b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_id>0d617b7887584550d8150fa30cbb35fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Oura Ring Integration" source="x_snc_oura_ring">de0ee2bc87504550d8150fa30cbb35a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_7c617b7887584550d8150fa30cbb35b7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:52</sys_created_on>
+        <sys_id>4561bb7887584550d8150fa30cbb3507</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Oura Ring Integration" source="x_snc_oura_ring">de0ee2bc87504550d8150fa30cbb35a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:52</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_7c617b7887584550d8150fa30cbb35b7"/>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>ff547e7887904550d8150fa30cbb35a5</sys_id>
+        <latest_snapshot>7c617b7887584550d8150fa30cbb35b7</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>

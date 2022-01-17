@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD85617b78fe58455080f79bfcf9197ff1</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>de0ee2bc87504550d8150fa30cbb35a8</scope_name>
+        <serialized_content>{"FlowDesigner:FD85617b78fe58455080f79bfcf9197ff1":{"gender":"String","gender.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"gender\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\",\"uiUniqueId\":\"8c46e6c0-241e-4cc2-8882-dfce5440d5d3\"}"},"weight":"String","weight.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"weight\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"4fd5a81e-612b-4711-b80b-6099bf096ec5\"}"},"age":"String","age.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"age\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"d275c026-7638-4335-9720-d529d26e36d8\"}"},"email":"String","email.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"email\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\",\"uiUniqueId\":\"38ea4a73-eab4-48d8-99b2-76b1a609edb9\"}"}},"FlowDesigner:FD85617b78fe58455080f79bfcf9197ff1.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"5cb07822-0a1a-4f16-bf48-7c9f3ec32f3c\",\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"result\",\"mandatory\":\"false\",\"uiUniqueId\":\"eee558a1-2e58-442f-a089-75c8250a71e4\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD85617b78fe58455080f79bfcf9197ff1\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"9e1051e3-ca30-4c40-bae8-c34f2da62579\",\"hint\":null,\"uiType\":\"object\",\"order\":\"3\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>matt.dodd</sys_created_by>
+        <sys_created_on>2021-12-06 07:28:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>49617b7887584550d8150fa30cbb35f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD85617b78fe58455080f79bfcf9197ff1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Oura Ring Integration" source="x_snc_oura_ring">de0ee2bc87504550d8150fa30cbb35a8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Oura Ring Integration">de0ee2bc87504550d8150fa30cbb35a8</sys_scope>
+        <sys_update_name>sys_complex_object_49617b7887584550d8150fa30cbb35f1</sys_update_name>
+        <sys_updated_by>matt.dodd</sys_updated_by>
+        <sys_updated_on>2021-12-06 07:28:51</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
